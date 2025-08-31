@@ -72,3 +72,30 @@ This dual-message approach enhances **data confidentiality**, misleads adversari
 ---
 
 ## 📂 Project Structure
+QR-Steganography/
+│── README.md # Project documentation
+│── /src # Java source code
+│ ├── com/project/main # Main classes (Servlets, Controllers)
+│ ├── com/project/dao # Database access objects (JDBC)
+│ ├── com/project/model # Data models (User, Message, QR Payload)
+│ └── com/project/util # Utility classes (Encryption, QR Generation)
+│
+│── /web # Frontend files
+│ ├── index.jsp # Home / Login page
+│ ├── register.jsp # User registration page
+│ ├── sendMessage.jsp # Send message with payload
+│ ├── viewMessage.jsp # View extracted payload
+│ ├── /css # Stylesheets
+│ ├── /js # JavaScript files
+│ └── /images # QR code images
+│
+│── /db
+│ └── schema.sql # MySQL database schema and sample data
+│
+│── /docs
+│ └── Project_Report.docx # Detailed project documentation
+│
+│── /lib # External libraries (JDBC driver, QR libs)
+│
+│── .gitignore # Git ignore file
+│── pom.xml / build.xml # If using Maven/Ant for build (optional)
